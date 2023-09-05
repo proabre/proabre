@@ -1,0 +1,37 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.header{
+  background-color: chartreuse;
+  border-radius: 100px;
+  box-shadow: 3px 4px 7px grey;
+
+}
+
+.cards{
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 2rem;
+  max-width: 1000PX;
+  box-shadow: 4px 4px 6px grey;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+.cards h2{
+  text-transform: capitalize;
+}
+.pic img{
+  width: 500px;
+}
